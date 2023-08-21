@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner{
+    background-image: url(../images/banner/banner1.png);
+    width: 1495px;
+    height: 800px;
+    
+}
+.banner-elements{
+    text-align: right;
+    /* padding: 100px 50px 100px 300px; */
+    margin-left: 700px; 
+    margin-right: 150px; 
+    padding-top: 50px; 
+    
+}
+.banner-title{
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+.contact-btn{
+    color: #FFF;
+    font-size: 20x;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background: #F15B22;
+    margin-right: 100px;
+
+}
+.md-banner{
+    display: flex;
+    background: #FFF;
+    padding:150px;
+}
+
+.md-banner-elements{
+    padding: 150px;
+    margin-top: 150px;
+}
+.md-banner-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.md-banner-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.p-lists{
+    padding: 15px;
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+.md-banner i{
+    color: skyblue;
+}
+.my-plan{
+    text-align: center;
+}
+.my-plan h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.plan-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+}
+.plan-description{
+    color:#737272 ;
+    font-size: 25px;
+    font-weight: 500;
+}
+.watch{
+    width: 1100px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 180px;
+    background-image: url(../images/watch.png);
+}
+.watch-elements{
+    padding: 86px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+  
+}
+.watch-title{
+    color: #FFF;;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.watch-btn{
+    color: #F15B22;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FFF; 
+    border: none;  
+}
+.last-section{
+    background: #151414;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.subscribe{
+    margin-left:250px;
+}
+.subs-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.future-description{
+    color: #FFF;
+    width: 485px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.email{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.phone{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+input{
+    padding:15px 20px;
+    color: #F3F3F3;
+    border: 2px solid #FFF;
+    background-color: #151414;
+}
