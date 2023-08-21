@@ -10,7 +10,6 @@
 }
 .banner-elements{
     text-align: right;
-    /* padding: 100px 50px 100px 300px; */
     margin-left: 700px; 
     margin-right: 150px; 
     padding-top: 50px; 
@@ -43,11 +42,13 @@
 .md-banner{
     display: flex;
     background: #FFF;
-    padding:150px;
+    padding:100px;
 }
-
+.md-banner{
+    background: #F15B22;
+}
 .md-banner-elements{
-    padding: 150px;
+    padding: 100px;
     margin-top: 150px;
 }
 .md-banner-title{
