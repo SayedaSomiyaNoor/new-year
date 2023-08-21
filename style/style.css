@@ -44,9 +44,7 @@
     background: #FFF;
     padding:100px;
 }
-.md-banner{
-    background: #F15B22;
-}
+
 .md-banner-elements{
     padding: 100px;
     margin-top: 150px;
@@ -84,7 +82,7 @@
 .plans{
     display: flex;
     justify-content: center;
-    gap: 70px;
+    gap: 50px;
 }
 .plan-title{
     color: #151414;
@@ -101,7 +99,7 @@
     width: 1100px;
     height: 300px;
     margin-top: 150px;
-    margin-left: 180px;
+    margin-left: 130px;
     background-image: url(../images/watch.png);
 }
 .watch-elements{
@@ -140,7 +138,7 @@
     margin-bottom: 20px;
 }
 .subscribe{
-    margin-left:250px;
+    margin-left:150px;
 }
 .subs-title{
     color: #FFF;
