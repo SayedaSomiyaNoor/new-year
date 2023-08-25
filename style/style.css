@@ -9,7 +9,7 @@
     
 }
 .banner-elements{
-    text-align: right;
+    /* text-align: right; */
     margin-left: 700px; 
     margin-right: 150px; 
     padding-top: 50px; 
@@ -61,15 +61,16 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
+.md-banner i{
+    color: skyblue;
+}
 .p-lists{
     padding: 15px;
     color:#444343;
     font-size: 16px;
     font-weight: 400;
 }
-.md-banner i{
-    color: skyblue;
-}
+
 .my-plan{
     text-align: center;
 }
@@ -169,4 +170,132 @@ input{
     color: #F3F3F3;
     border: 2px solid #FFF;
     background-color: #151414;
+}
+@media screen and (max-width : 576px){
+    .banner{
+        width: 375px;
+        height: 400px;
+        background-image:none;
+
+    }
+    .banner-elements{
+        text-align: left;
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    .banner-title, .md-banner-title{
+        width: 200px;
+        font-size: 30px;
+    }
+    .md-banner{
+        flex-direction: column;
+        padding: 0;
+    }
+    .md-banner img{
+        margin-left: 35px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    .md-banner-elements{
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 5px;
+        /* width: 375; */
+    }
+    .my-plan h3{
+       padding: 10px;
+       margin-bottom: 5px;
+    }
+    .subscribe{
+        /* padding: 10px; */
+        margin: 30px 5px;
+    }
+    .watch{
+        height: 200px;
+        width: 350px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .watch-title{
+        font-size: 25px;
+        
+    }
+    .watch-elements{
+        padding: 30px;
+    }  
+    .last-section{
+        margin: 30px 10px 10px; 
+        border-radius: 10px;      
+    }
+    .future-description{
+        width: auto;
+    }
+    .plans,.last-section{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;     
+    }
+    .md-banner-description, .p-lists, .future-description{
+        overflow-wrap: break-word;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .banner{
+        /* background-image:none; */
+        background-size: 800px;
+        height: 400px;
+        background-repeat: no-repeat;
+        
+    }
+    .banner-elements{
+        margin-left: 400px;
+        width: 300px;
+        margin-right: 0;
+        
+    }
+    .banner-title{
+        font-size: 40px;
+        width: 350px;
+    }
+    .banner-description{
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .md-banner{
+        flex-direction: column; 
+    }
+    .md-banner img{
+        margin-left: 100px;
+        height: 500px;
+        width: 400px;
+    }
+    .md-banner-elements{
+        margin-top: 50px;
+        padding: 0;
+    } 
+    .plans{
+        gap: 0;
+    }
+    .plan-title{
+        font-size: 25px;
+    }
+    .watch{
+        background-size: 800px;
+        width: 800px;
+        height: 220px;
+        margin: 50px 10px 10px 10px;
+        background-repeat: no-repeat;       
+    }
+    .watch-elements{
+        padding: 42px;
+    }
+    .last-section{
+        flex-direction: column;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    .subscribe{
+        margin-left: 8px;
+    }
 }
